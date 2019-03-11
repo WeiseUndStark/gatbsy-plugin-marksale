@@ -1,0 +1,27 @@
+{
+  "name": "gatbsy-plugin-marksale",
+  "description": "Gatsby plugin to add marksale onto a site",
+  "version": "1.0.0",
+  "author": "Christian Kehres <c.kehres@wus.agency> (https://www.wus.agency)",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "marksale"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeiseUndStark/gatbsy-plugin-marksale.git"
+  }
+}
