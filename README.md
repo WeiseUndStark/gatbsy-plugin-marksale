@@ -14,7 +14,9 @@ plugins: [
   {
     resolve: `gatsby-plugin-marksale`,
     options: {
-      clientAlias: 'client alias here'
+      clientAlias: 'YOUR_MARKSALE_CLIENT_ALIAS',
+      // Include in development.
+      includeInDevelopment: false
     }
   }
 ];

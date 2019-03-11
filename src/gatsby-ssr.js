@@ -1,8 +1,11 @@
 import React from 'react';
 
-exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
-  if (process.env.NODE_ENV === `production`) {
-    return setHeadComponents([
+exports.onRenderBody = ({ setPreBodyComponents }, pluginOptions) => {
+  if (
+    process.env.NODE_ENV === `production` ||
+    pluginOptions.includeInDevelopment
+  ) {
+    return setPreBodyComponents([
       <script
         key={`gatsby-plugin-marksale`}
         dangerouslySetInnerHTML={{
