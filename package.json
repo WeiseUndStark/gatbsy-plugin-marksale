@@ -1,7 +1,7 @@
 {
   "name": "gatbsy-plugin-marksale",
   "description": "Gatsby plugin to add marksale onto a site",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Christian Kehres <c.kehres@wus.agency> (https://www.wus.agency)",
   "bugs": {
     "url": "https://github.com/WeiseUndStark/gatbsy-plugin-marksale/issues"
